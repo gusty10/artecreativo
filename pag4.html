@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Arte</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pag-4">
+    <header class="header">
+        <div class="menu container">
+            <a href="" class="logo"></a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pag2.html">Pintores</a></li>
+                    <li><a href="pag3.html">Galeria</a></li>
+                    <li><a href="pag4.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/carrito.png" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>Imagen</tr>
+                                    <tr>Nombre</tr>
+                                    <tr>Precio</tr>
+                                    <tr></tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="img/art-gallery-logo.png" alt="logo-galeria">
+            </div>
+            <div class="header-txt">
+                <h1>ART GALLERY</h1>
+                <p>las mejores reproducciones de arte para destacar tus espacios</p>
+            </div>
+        </div>
+    </header>
+
+      <form id="formulario-contacto">
+        <section id="personal-data">
+            <h2>CONTACTO</h2>    
+     <label id="name-label">Nombre<input id="name" type="text" placeholder="Ingrese su nombre" required></label>
+     <br>
+     <label id="email-label">Email <input id="email" type="email" placeholder="Ingrese su email" required></label>
+     <br>
+     <label id="number-label">Teléfono<input id="number" type="number" min="6" max="15" placeholder="Ingrese su número de teléfono"></label>
+     </section>
+     <br>
+       <section id="extras">
+            <h2>DEJENOS SU CONSULTA, RESPONDEREMOS A LA BREVEDAD</h2>
+        <textarea id="sthg-more" cols="50" rows="10" placeholder="Escriba aquí..."></textarea>
+                 </section>
+                 <section id="button">
+                   <button id="submit">Enviar</button>
+                     </section>
+       
+        </form>
+        <br>
+        <div class="separador"></div>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                </ul>
+                </h3>
+            </div>
+
+            <div class="link">
+                <h3>
+                <ul>
+                    <li><a href="pag2.html">Pintores</a></li>
+                </ul>
+            </h3>
+            </div>
+
+            <div class="link">
+                <h3>
+                <ul>
+                    <li><a href="pag3.html">Galeria</a></li>
+                </ul>
+            </h3>
+            </div>
+
+            <div class="link">
+                <h3>
+                <ul>
+                    <li><a href="pag4.html">Contacto</a></li> 
+                </ul>
+            </h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
